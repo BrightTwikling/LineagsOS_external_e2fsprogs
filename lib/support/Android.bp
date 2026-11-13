@@ -51,6 +51,7 @@ cc_library {
 
 cc_library_shared {
     name: "libext2_profile",
+    recovery_available: true,
     host_supported: true,
     unique_host_soname: true,
     defaults: ["e2fsprogs-defaults"],
